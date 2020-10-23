@@ -1,0 +1,28 @@
+.card {
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1.5px dotted red;
+  width: 30%;
+  padding: 10px;
+}
+
+.card__tags {
+  display: flex;
+}
+
+.card__image {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+/* оказывается после img не добавляется after эффект по дефолту */
+
+/* .card__image::after {
+  content: "";
+  position: relative;
+  display: block;
+  width: 10px;
+  height: 3px;
+  background-color: black;
+  margin: 10px;
+} */
